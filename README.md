@@ -1,8 +1,8 @@
-# Redux
+# <img src="https://miro.medium.com/v2/resize:fit:256/1*uII4elorSUwsIA5m1j-o2w.png" width="25px"/>Redux
 
 Redux é uma biblioteca de gerenciamento de estado amplamente usada em aplicações JavaScript. Ele segue o padrão Flux e é comumente usado com bibliotecas como React.
 
-<img src="https://www.alura.com.br/artigos/assets/estados-globais-diferencas-redux-context-api/imagem2.gif"/>
+<img src="https://www.alura.com.br/artigos/assets/estados-globais-diferencas-redux-context-api/imagem2.gif" width="600px"/>
 
 A ideia central do Redux é armazenar o estado da aplicação em um único objeto chamado "store". O estado é imutável, o que significa que não pode ser alterado diretamente. As alterações no estado são feitas por meio de objetos chamados "actions". Cada action descreve uma mudança específica no estado.
 
@@ -16,3 +16,6 @@ Essa arquitetura unidirecional do Redux torna o fluxo de dados previsível e fac
 - *Reducers* são funções que recebem um estado e o atualizam com a devida *Action*.
 - *Store* é onde os estados ficam guardados.
 - *Dispatch* é quem presta atenção em eventos dentro da aplicação (trata-se de um *event listener* ou "ouvinte de eventos" do Redux). Ou seja, quando um evento for chamado - um clique em botão, por exemplo -, ele executa um *reducer* com a devida *action*.
+
+<h1>Aplicação</h1>
+Neste repositório, foram realizados estudos sobre o Redux padrão e o Redux Toolkit.
